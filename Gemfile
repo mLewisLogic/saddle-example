@@ -1,3 +1,3 @@
 source :rubygems
 
-gem 'apiwrapper', :git =>, :ref => 'f6d32619a4a1b20f04c5d72efbd6ec656d544424'
+gem 'apiwrapper', :git =>, :ref => '43eccc84f64e70f6f99e519d69f58bf31cca1a80'
