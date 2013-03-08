@@ -1,4 +1,1 @@
-apiwrapper-example
-==================
-
-A concrete example implementation of an apiwrapper based client
+Example concrete implementation of an [apiwrapper](https://github.com/mLewisLogic/apiwrapper) based client.
