@@ -4,11 +4,11 @@ Example concrete implementation of an [apiwrapper](https://github.com/mLewisLogi
 
 ## about
 
-Implements the _Kitten_ and _Puppy_ endpoints. They enable the following paths.
-* GET  kitten/get_all
-* POST kitten/scratch_head
-* GET  puppy/get_all
-* POST puppy/scratch_belly
+Implements the _Kitten_ and _Puppy_ endpoints. They provide for the following paths.
+* **GET**  /kitten/get_all
+* **POST** /kitten/scratch_head
+* **GET**  /puppy/get_all
+* **POST** /puppy/scratch_belly
 
 
 ## usage
