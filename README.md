@@ -9,6 +9,7 @@ Implements the _Kitten_ and _Puppy_ endpoints. They provide for the following pa
 * **POST** /kitten/scratch_head
 * **GET**  /puppy/get_all
 * **POST** /puppy/scratch_belly
+* **GET**  /fish/guppy/get_all
 
 
 ## usage
@@ -20,3 +21,5 @@ Implements the _Kitten_ and _Puppy_ endpoints. They provide for the following pa
 
     all_the_puppies = client.puppy.get_all
     client.puppy.scratch_belly('Nutmeg')
+
+    all_the_guppies = client.fish.guppy.get_all

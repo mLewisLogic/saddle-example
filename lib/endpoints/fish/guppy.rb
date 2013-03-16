@@ -6,8 +6,4 @@ class Guppy < BaseEndpoint
     get 'get_all'
   end
 
-  def look_at
-    post 'look_at'
-  end
-
 end
