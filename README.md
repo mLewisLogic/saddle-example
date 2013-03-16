@@ -1,6 +1,6 @@
-# apiwrapper-example
+# lasso-example
 
-Example concrete implementation of an [apiwrapper](https://github.com/mLewisLogic/apiwrapper) based client.
+Example concrete implementation of an [lasso](https://github.com/mLewisLogic/lasso) based client.
 
 ## about
 
@@ -13,7 +13,7 @@ Implements the _Kitten_ and _Puppy_ endpoints. They provide for the following pa
 
 ## usage
 
-    client = ApiwrapperExample.new
+    client = LassoExample.new
 
     kittens = client.kitten.get_all
     client.kitten.scratch_head('Whiskers')
