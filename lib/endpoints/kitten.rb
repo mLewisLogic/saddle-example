@@ -1,4 +1,4 @@
-require 'lasso/base_endpoint'
+require 'saddle/base_endpoint'
 
 class Kitten < BaseEndpoint
 

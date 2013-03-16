@@ -1,8 +1,8 @@
-require 'lasso'
+require 'saddle'
 
 
 
-class LassoExample < Lasso
+class SaddleExample < Saddle
 
   def default_options
     {

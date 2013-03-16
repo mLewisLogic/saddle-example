@@ -1,10 +1,10 @@
-require 'lasso-example'
+require 'saddle-example'
 
 
-describe LassoExample do
+describe SaddleExample do
   context "Testing endpoint access via methods" do
     before :each do
-      @client = LassoExample.new
+      @client = SaddleExample.new
     end
 
     it "should find the Kitten endpoint" do

@@ -1,6 +1,6 @@
-# lasso-example
+# saddle-example
 
-Example concrete implementation of an [lasso](https://github.com/mLewisLogic/lasso) based client.
+Example concrete implementation of an [saddle](https://github.com/mLewisLogic/saddle) based client.
 
 ## about
 
@@ -13,7 +13,7 @@ Implements the _Kitten_ and _Puppy_ endpoints. They provide for the following pa
 
 ## usage
 
-    client = LassoExample.new
+    client = SaddleExample.new
 
     kittens = client.kitten.get_all
     client.kitten.scratch_head('Whiskers')

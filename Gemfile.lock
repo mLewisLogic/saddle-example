@@ -1,9 +1,9 @@
 GIT
-  remote: git://github.com/mLewisLogic/lasso.git
-  revision: bd5f328788f956b4ca91594b77ffd398fd3d91b6
-  ref: bd5f328788f956b4ca91594b77ffd398fd3d91b6
+  remote: git://github.com/mLewisLogic/saddle.git
+  revision: ce821756bebe6e39dd9c16d909e621dc31d0c96f
+  ref: ce821756bebe6e39dd9c16d909e621dc31d0c96f
   specs:
-    lasso (0.0.1)
+    saddle (0.0.1)
       faraday (~> 0.8.6)
       faraday_middleware (~> 0.9.0)
       typhoeus (~> 0.6.2)
@@ -38,6 +38,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  lasso!
   rspec (~> 2.13.0)
   rspec-instafail (~> 0.2)
+  saddle!

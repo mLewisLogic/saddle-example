@@ -1,7 +1,7 @@
 source :rubygems
 
-#gem 'lasso', :path => '../lasso'
-gem 'lasso', :git =>'git://github.com/mLewisLogic/lasso.git', :ref => 'bd5f328788f956b4ca91594b77ffd398fd3d91b6'
+#gem 'saddle', :path => '../saddle'
+gem 'saddle', :git =>'git://github.com/mLewisLogic/saddle.git', :ref => 'ce821756bebe6e39dd9c16d909e621dc31d0c96f'
 
 group :test do
   gem 'rspec', '~> 2.13.0'
