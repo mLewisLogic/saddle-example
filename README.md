@@ -4,7 +4,7 @@ Example concrete implementation of an [saddle](https://github.com/mLewisLogic/sa
 
 ## about
 
-Implements the _Kitten_ and _Puppy_ endpoints. They provide for the following paths.
+Implements the _Kitten_, _Puppy_ and _Fish_ endpoints. They provide for the following paths.
 * **GET**  /kitten/get_all
 * **POST** /kitten/scratch_head
 * **GET**  /puppy/get_all
