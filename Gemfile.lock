@@ -1,20 +1,26 @@
 GIT
   remote: git://github.com/mLewisLogic/saddle.git
-  revision: f1eec6d8cc8d7ff9c499eed8a56716a68abd3228
-  ref: f1eec6d8cc8d7ff9c499eed8a56716a68abd3228
+  revision: bab7d2eaca4944f1c15d89b33b05b98e5468f53c
+  ref: bab7d2eaca4944f1c15d89b33b05b98e5468f53c
   specs:
     saddle (0.0.1)
+      activesupport (~> 3.2.13)
       faraday (~> 0.8.6)
       faraday_middleware (~> 0.9.0)
 
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
+    activesupport (3.2.13)
+      i18n (= 0.6.1)
+      multi_json (~> 1.0)
     diff-lcs (1.2.1)
-    faraday (0.8.6)
+    faraday (0.8.7)
       multipart-post (~> 1.1)
     faraday_middleware (0.9.0)
       faraday (>= 0.7.4, < 0.9)
+    i18n (0.6.1)
+    multi_json (1.7.2)
     multipart-post (1.2.0)
     rspec (2.13.0)
       rspec-core (~> 2.13.0)
