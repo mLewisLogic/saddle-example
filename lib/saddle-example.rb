@@ -5,12 +5,12 @@ module SaddleExample
 
   class Client < Saddle::Client
 
-    def self.default_options
-      {
-        :host => 'example.org',
-        :port => 8080,
-        :use_ssl => false,
-      }
+    def self.host
+      'example.org'
+    end
+
+    def self.port
+      8080
     end
 
   end
