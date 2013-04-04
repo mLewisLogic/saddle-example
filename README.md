@@ -6,7 +6,7 @@ Example concrete implementation of an [saddle](https://github.com/mLewisLogic/sa
 
 Implements the _Kitten_, _Puppy_ and _Fish_ endpoints. They provide for the following paths.
 * **GET**  /kitten/get_all
-* **POST** /kitten/scratch_head
+* **GET**  /kitten/:id/info
 * **GET**  /puppy/get_all
 * **POST** /puppy/scratch_belly
 * **GET**  /fish/guppy/get_all
@@ -17,9 +17,9 @@ Implements the _Kitten_, _Puppy_ and _Fish_ endpoints. They provide for the foll
     client = SaddleExample.new
 
     kittens = client.kitten.get_all
-    client.kitten.scratch_head('Whiskers')
+    client.kitten.by_id('Whiskers').info
 
-    all_the_puppies = client.puppy.get_all
+    all_the_puppies = client.puppy.get_all(:limit => 10)
     client.puppy.scratch_belly('Nutmeg')
 
     all_the_guppies = client.fish.guppy.get_all

@@ -1,7 +1,7 @@
 GIT
   remote: git://github.com/mLewisLogic/saddle.git
-  revision: f721bacaf530936234251ba7ad08fe47eaf0c963
-  ref: f721bacaf530936234251ba7ad08fe47eaf0c963
+  revision: 55d0dc19fa4cf090ffe647fbcb618c4c6d019ce3
+  ref: 55d0dc19fa4cf090ffe647fbcb618c4c6d019ce3
   specs:
     saddle (0.0.1)
       activesupport (~> 3.2.13)

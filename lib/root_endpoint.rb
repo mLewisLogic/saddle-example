@@ -1,9 +1,9 @@
-require 'saddle/base_endpoint'
+require 'saddle/endpoint'
 
 
 module SaddleExample
 
-  class RootEndpoint < Saddle::BaseEndpoint
+  class RootEndpoint < Saddle::TraversalEndpoint
 
     def health
       get 'health'

@@ -1,10 +1,10 @@
-require 'saddle/base_endpoint'
+require 'saddle/endpoint'
 
 
 module SaddleExample
   module Endpoints
 
-    class Puppy < Saddle::BaseEndpoint
+    class Puppy < Saddle::TraversalEndpoint
 
       def get_all
         get 'get_all'
