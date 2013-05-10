@@ -18,5 +18,5 @@ Gem::Specification.new do |s|
   s.homepage      = 'https://github.com/mLewisLogic/saddle-example'
   s.license       = 'MIT'
 
-  s.add_dependency 'saddle', '~> 0.0.14'
+  s.add_dependency 'saddle', '~> 0.0.15'
 end
