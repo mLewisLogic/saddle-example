@@ -16,4 +16,3 @@ module SaddleExample
     end
   end
 end
-
