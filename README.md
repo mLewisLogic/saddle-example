@@ -14,7 +14,7 @@ Implements the _Kitten_, _Puppy_ and _Fish_ endpoints. They provide for the foll
 
 ## usage
 
-    client = SaddleExample.new
+    client = SaddleExample::Client.create
 
     kittens = client.kitten.get_all
     client.kitten.by_id('Whiskers').info
