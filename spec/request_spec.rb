@@ -40,7 +40,7 @@ describe SaddleExample do
 
     it "should hit the puppy get_all endpoint" do
       @client.requester.should_receive(:get) do |url|
-        url.should eq('/puppy/get_all')
+        url.should eq('/puppiez-endpoint/get_all')
       end
       @client.puppy.get_all
     end
@@ -48,7 +48,7 @@ describe SaddleExample do
     it "should hit the puppy scratch_belly endpoint" do
       puppy_id = 'abcd1234'
       @client.requester.should_receive(:post) do |url, params|
-        url.should eq("/puppy/scratch")
+        url.should eq("/puppiez-endpoint/scratch")
         params.should eq({
           :puppy_id => puppy_id,
           :location => 'belly',

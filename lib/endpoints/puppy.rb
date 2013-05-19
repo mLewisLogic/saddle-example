@@ -6,6 +6,12 @@ module SaddleExample
 
     class Puppy < Saddle::TraversalEndpoint
 
+      # Override the relative path because there is a dash
+      def _relative_path
+        'puppiez-endpoint'
+      end
+
+
       def get_all
         get 'get_all'
       end
