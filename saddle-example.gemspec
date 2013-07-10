@@ -1,6 +1,4 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/saddle-example/version', __FILE__)
-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
@@ -18,5 +16,5 @@ Gem::Specification.new do |s|
   s.homepage      = 'https://github.com/mLewisLogic/saddle-example'
   s.license       = 'MIT'
 
-  s.add_dependency 'saddle', '~> 0.0.21'
+  s.add_dependency 'saddle', '~> 0.0.33'
 end

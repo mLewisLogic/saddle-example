@@ -1,4 +1,4 @@
-require 'saddle-example'
+require 'spec_helper'
 
 
 describe SaddleExample do

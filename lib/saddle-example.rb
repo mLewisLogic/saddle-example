@@ -1,5 +1,7 @@
 require 'saddle'
 
+require 'saddle-example/version'
+
 
 module SaddleExample
 
