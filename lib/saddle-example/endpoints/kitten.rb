@@ -7,7 +7,7 @@ module SaddleExample
     class Kitten < Saddle::TraversalEndpoint
 
       def get_all
-        get 'get_all'
+        get('get_all')
       end
 
       def by_id(kitten_id)
@@ -18,7 +18,7 @@ module SaddleExample
 
     class KittenResource < Saddle::ResourceEndpoint
       def info(opt={})
-        get 'info', opt
+        get('info', opt)
       end
     end
   end

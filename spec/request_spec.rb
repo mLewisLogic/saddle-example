@@ -17,7 +17,7 @@ describe SaddleExample do
       @client.requester.should_receive(:get) do |url|
         url.should eq('/health')
       end
-      @client.health
+      @client.health.check
     end
 
 
@@ -48,10 +48,10 @@ describe SaddleExample do
       puppy_id = 'abcd1234'
       @client.requester.should_receive(:post) do |url, params|
         url.should eq("/puppiez-endpoint/scratch")
-        params.should eq({
+        params.should eq(
           :puppy_id => puppy_id,
           :location => 'belly',
-        })
+        )
       end
       @client.puppy.scratch_belly(puppy_id)
     end

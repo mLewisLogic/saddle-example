@@ -9,8 +9,8 @@ describe SaddleExample do
     end
 
 
-    it "should find the root endpoint" do
-      @client.class.should == SaddleExample::RootEndpoint
+    it "should find the health endpoint" do
+      @client.health.class.should == SaddleExample::Endpoints::Health
     end
 
     it "should find the Kitten endpoint" do

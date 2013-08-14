@@ -8,7 +8,7 @@ module SaddleExample
       class Guppy < Saddle::TraversalEndpoint
 
         def get_all
-          get 'get_all'
+          get('get_all')
         end
 
       end
