@@ -6,6 +6,11 @@ module SaddleExample
 
     class Kitten < Saddle::TraversalEndpoint
 
+      # Hit this endpoint without appending an action
+      def top
+        get(nil)
+      end
+
       def get_all
         get('get_all')
       end

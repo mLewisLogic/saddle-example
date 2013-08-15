@@ -21,6 +21,13 @@ describe SaddleExample do
     end
 
 
+    it "should hit the top kitten endpoint" do
+      @client.requester.should_receive(:get) do |url|
+        url.should eq('/kitten')
+      end
+      @client.kitten.top
+    end
+
     it "should hit the kitten get_all endpoint" do
       @client.requester.should_receive(:get) do |url|
         url.should eq('/kitten/get_all')
